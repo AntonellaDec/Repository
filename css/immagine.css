@@ -1,0 +1,27 @@
+.quadrato {
+    width: 200px;
+    height: 200px;
+    border: 10px solid ;
+ /*   border-width: 10px;
+    border-color: red;
+    border-style: solid;
+*/
+    border-top-left-radius: 10px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 75%;
+    border-bottom-right-radius: 20%;
+}
+
+.coloreSfondo {
+    background-color: salmon;
+}
+
+.coloreGradiente {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(50,50,148,0.37048322747067575) 35%, rgba(0,212,255,1) 100%);
+}
+.immagineSfondo {
+    background-image: url("../Immagini/bari.jpg");
+    background-size: cover;
+    
+}

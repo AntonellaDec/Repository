@@ -1,0 +1,47 @@
+header {
+    background-color: aqua;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li{
+    display: inline;
+    margin-left: 50px;
+}
+
+a:hover{
+    background-color: beige;
+}
+
+a:focus{
+    background-color: blue;
+}
+
+a:visited{
+    color:rebeccapurple;
+}
+
+a{
+    background-color: black;
+    color:aliceblue;
+    text-decoration: none;
+    padding: 10px;
+}
+/* questo stile serve per la sezione x e y */
+.listaOrdinataRomana {
+    list-style-type: lower-roman;  
+    list-style-position: inside;
+}
+
+p {
+    text-align: center;
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration: overline;
+    letter-spacing: 20px;
+    word-spacing: 30px;
+    text-shadow: 4px 5px 9px greenyellow;
+}

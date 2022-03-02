@@ -1,0 +1,12 @@
+/* Selettori di elemento */
+h1 {color:blueviolet; border: 3px;}
+legend, label {color:red;}
+table {border: solid 10px;}
+/* Selettore universale */
+*{color:blue;}
+/* Selettore di classe */ 
+.evidenziato {background-color: aqua;}
+h2.titolo2evidenziato {color:red;}
+caption.titoloimportante {color:chocolate;}
+/* Selettore id */ 
+#taranto {color:brown;}

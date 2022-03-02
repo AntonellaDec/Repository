@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        /*
+            let nome="Filippo";
+            nome="Filippa";
+    
+            console.log(nome);
+    
+             const a=3;
+        let VariabileReale=2.3; 
+        console.log(VariabileReale);
+      
+         let mesi=["gennaio","febbraio","marzo"] ;
+         let i=0;
+            for (i=0;i<=2;i++) {
+               console.log(mesi[i]) ;
+            } 
+           */
+    </script>
+</head>
+
+<body>
+    <h1></h1>
+
+    <script>
+        /*
+          let variabileLet="io sono Let";
+           var variabileVar="io sono Var";
+           console.log(variabileLet); //questa variabile serve per..
+           console.log(variabileVar); //utilizzare variabili mnemoniche camelCase
+   
+           let j=0
+           let mesi=["gennaio","febbraio","marzo"] ;
+        let i=0;
+           for (i=0;i<=2;i++) {
+              console.log(mesi[i]) ;
+             j=33; //con Let da errore - con Var non da errore, dichiarare fuori la variabile con let
+           } 
+       console.log(j);
+   */
+        let prezzo = 300;
+        prezzo = String(prezzo);
+        let prezzo1 = 500;
+        risultato = prezzo + prezzo1;
+        console.log(typeof risultato);
+
+        stringa = "300";
+        console.log(typeof stringa);
+        numero = parseInt(stringa);
+        console.log(numero);
+        if (isNaN(numero)) {
+            console.log("Errore! Non è un nemero")
+        }
+        else {
+            console.log("ok")
+        }
+
+        let dataNascita = new Date("04/25/2000");
+        let oggi = new Date();
+        let vissuto = oggi - dataNascita;
+        console.log("Millisecondi vissuti");
+        console.log(vissuto);
+        let giorniVissuti = (((((oggi - dataNascita) / 1000) / 60) / 60) / 24);
+        console.log("giorni vissuti");
+        console.log(giorniVissuti);
+
+
+
+        let articolo = "telefono";
+        articolo = 'l\'uomo filippo';
+        articolo = `l'uomo filippo ` + prezzo;
+        console.log(articolo);
+        console.log(typeof prezzo);
+        console.log(typeof articolo);
+
+    </script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/miostile.css">
+</head>
+
+<body>
+    <h1> Prima Form Web</h1>
+    <form action="https://www.uniba.it" method="get">
+        <fieldset>
+            <legend> Dati Anagrafici </legend>
+            <label> Cognome </label>
+            <input type="text" maxlength="30" size="35" placeholder="Inserisci il tuo congnome" name="cognome"> <br />
+            <label> Nome </label>
+            <input type="text" name="nome" maxlength="30" size="35" placeholder="Inserisci il tuo nome"> <br />
+            <label>Provincia</label>
+            <select name="Provincia">
+                <option value="BA">Bari</option>
+                <option value="BT">Bat</option>
+                <option value="BR">Brindisi</option>
+                <option value="FG">Foggia</option>
+                <option value="LE">Lecce</option>
+                <option value="TA">Taranto</option>
+            </select> <br />
+            <label> Data di nascita</label>
+            <input type="date" name="datanascita"> <br />
+            <label>Email</label>
+            <input type="email" name="email">
+            <label>Password</label>
+            <input type="password" name="password"> <br />
+            <label> Allega la tua foto</label>
+            <input type="file" name="allegato" multiple>
+        </fieldset>
+        <fieldset>
+            <legend> Indagini </legend>
+            <label> Che colore ti piace? </label>
+            <input type="color" name="colore"> <br />
+            <textarea rows="5" cols="40" name="commento">Hai commenti?</textarea> <br />
+            <hr />
+            <legend> Quanti libri leggi in un anno?</legend>
+
+            <input type="radio" name="libri" value="Zerocinque" checked> 0-5 <br />
+            <input type="radio" name="libri" value="SeiDieci"> 6-10 <br />
+            <input type="radio" name="libri" value="OltreDieci"> oltre 10 <br />
+            <hr />
+            <legend>
+                Che quotidiani leggi?
+            </legend> <br />
+            <input type="checkbox" name="quotidiani" value="repubblica"> Repubblica <br />
+            <input type="checkbox" name="quotidiani" value="corriere"> Corriere <br />
+            <input type="checkbox" name="quotidiani" value="ilfatto"> Il Fatto <br />
+            <input type="checkbox" name="quotidiani" value="libero"> Libero <br />
+            <input type="checkbox" name="quotidiani" value="GazzettadelMezzogiorno"> Gazzetta del Mezzogiorno <br />
+            <input type="checkbox" name="quotidiani" value="stampa"> Stampa <br />
+            <legent> Secondo te qual &egrave; il quotidiano migliore?</legent> <br />
+            <input list="migliore">
+            <datalist id="migliore">
+                <option value="Repubblica">  </option>
+                <option value="Corriere">  </option>
+                <option value="Ilfatto">  </option>
+                <option value="Libero">  </option>>
+                <option value="GazzettadelMezzogiorno"> </option>
+                <option value="Stampa">  </option>
+
+            </datalist>
+        </fieldset>
+        <button type="submit"> Invia </button>
+        <button type="reset"> Reset </button>
+    </form>
+</body>
+
+</html>
